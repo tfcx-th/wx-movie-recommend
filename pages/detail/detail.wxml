@@ -1,0 +1,12 @@
+<!--page/detail/detail.wxml-->
+<!-- <text>page/detail/detail.wxml</text> -->
+<view class='movieBox'>
+  <text class='movieBasic'>片名：{{movie.name}}</text>
+  <text class='movieBasic'>英文名：{{movie.nameEn}}</text>
+  <text class='movieBasic'>上映国家：{{movie.releaseArea}}</text>
+  <text class='movieBasic'>上映时间：{{movie.releaseDate}}</text>
+  <text class='movieBasic'>评分：{{movie.overallRating}}分</text>
+  <text class='movieBasic'>时长：{{movie.mins}}</text>
+  <image class='movieImg' src='{{movie.img}}'></image>
+  <text class='movieSummary'>{{movie.story}}</text>
+</view>

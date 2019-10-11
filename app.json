@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "电影推荐",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/icon/home.png",
+        "selectedIconPath": "pages/images/icon/selectedHome.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "pages/images/icon/about.png",
+        "selectedIconPath": "pages/images/icon/selectedAbout.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

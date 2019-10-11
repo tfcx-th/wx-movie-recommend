@@ -1,0 +1,10 @@
+.container text:first-child {
+  font-size: 64rpx;
+  font-weight: bold;
+}
+
+.container image {
+  width: 450rpx;
+  height: 350rpx;
+  border-radius: 50%;
+}

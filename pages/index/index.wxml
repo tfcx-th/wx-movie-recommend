@@ -1,0 +1,9 @@
+<swiper indicator-dots='true' class='swiperBox' current='{{currentIndex}}'>
+  <swiper-item  wx:for="{{movieList}}" wx:key="id">
+    <view class='movieBox' bindtap='f1' data-movie-id="{{item.id}}">
+      <text>{{item.name}}</text>
+      <image src='{{item.posterUrl}}' class='movieImg'></image>
+      <text>“ {{item.remark}}”</text>
+    </view>
+  </swiper-item>
+</swiper>

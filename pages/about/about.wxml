@@ -1,0 +1,7 @@
+<view class="container">
+  <text>电影推荐</text>
+  <image src="../images/test.jpg"></image>
+  <text>开发者：天赋创新</text>
+  <text>日期：2019</text>
+  <text>版本：1.0.0</text>
+</view>
